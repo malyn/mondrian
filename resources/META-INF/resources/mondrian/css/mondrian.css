@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(25,29,33);
+}
+
+.mondrian {
+  padding: 16px;
+  color: #ccc;
+  background-color: rgb(25,29,33);
+}
+
+.mondrian canvas {
+  /* Setting the width to 100% causes the canvas to fill up as much
+   * space in the parent as possible.  Setting height to auto causes
+   * most browsers (but not IE) to preserve the canvas's aspect ratio,
+   * which we have set below in the canvas element itself.  Note that we
+   * have no intention of preserving the 320x320 canvas size, but we have
+   * to set a size in order for the aspect ratio preservation to kick in. */
+  width: 100%;
+  height: auto;
+}
+
+.control {
+  display: table-row;
+}
+
+.control .label {
+  display: table-cell;
+  padding-right: 1em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Need wrappers in order to prevent jQuery UI from filling the entire
+ * DIV with the slider. */
+.control .wrapper {
+  display: table-cell;
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+/* Adjust the font size on buttons in order to make them fit in better
+ * with sliders. */
+.control.radio .wrapper, .control.togglegroup .wrapper {
+  font-size: 0.6em;
+}
+
+.control.togglegroup label {
+  margin-right: 0.5em;
+}
+
+.control .value {
+  display: table-cell;
+  min-width: 2em;
+  padding-left: 1em;
+  white-space: nowrap;
+}
