@@ -1,4 +1,4 @@
-(defproject mondrian "0.1.0"
+(defproject mondrian "0.1.1-SNAPSHOT"
   :description "Framework for creating browser-based interactive artwork in ClojureScript"
   :url "https://github.com/malyn/mondrian"
   :license {:name "BSD"
@@ -16,7 +16,7 @@
   :plugins [[lein-cljsbuild "0.3.2"]]
   :hooks [leiningen.cljsbuild]
 
-  :source-paths ["no-clj-here"]
+  :source-paths ["src/clj"]
 
   :cljsbuild {:builds {:main {:source-paths ["src/cljs"]
                               :jar true}}})
