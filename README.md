@@ -14,7 +14,7 @@ I used mondrian to create *[La vie en cloj][]*, my collection of browser-based a
 Add the following dependency to your `project.clj`:
 
 ```clojure
-[mondrian "0.1.0"]
+[mondrian "0.1.1"]
 ```
 
 ### Interactive Development
