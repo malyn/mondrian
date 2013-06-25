@@ -21,6 +21,10 @@ Add the following dependency to your `project.clj`:
 
 TODO
 
+(In the meantime, see my article on [interactive development with mondrian][] for a complete walkthrough of the mondrian framework.)
+
+[interactive development with mondrian]: http://michaelalynmiller.com/blog/2013/06/25/mondrian/
+
 ## License
 
 Copyright &copy; 2013, Michael Alyn Miller

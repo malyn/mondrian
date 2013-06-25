@@ -1,4 +1,4 @@
-(defproject mondrian "0.1.1-SNAPSHOT"
+(defproject mondrian "0.1.1"
   :description "Framework for creating browser-based interactive artwork in ClojureScript"
   :url "https://github.com/malyn/mondrian"
   :license {:name "BSD"
